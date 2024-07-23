@@ -16,7 +16,7 @@ void main() async {
     await Firebase.initializeApp();
     if (kDebugMode) {
       print('Firebase initialized');
-    }
+    } //hhh
   } catch (e) {
     if (kDebugMode) {
       print('Error initializing Firebase: $e');
